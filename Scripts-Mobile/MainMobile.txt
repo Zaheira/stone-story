@@ -41,39 +41,39 @@ var iceWandA = false
 var iceWandB = false
 var iceWandBossA = false
 Var iceWandBossB =false
-var stoneHammerA = "stone hammer +10"
-var stoneHammerB = getAlt(stoneHammerA)
+var stoneHammerA = false
+var stoneHammerB = false
 
 // - DEFAULT EQUIPMENT
-var mainWeapon = "big aether sword U"
+var mainWeapon = "vigor sword" 
 var mainOffhand = false
-var mainTwoHanded = false
+var mainTwoHanded = "blade" 
 var mainShield = strongArmorShield
-var mainRanged = "repeating crossbow"
+var mainRanged = "aether wand"
 
 // - ELEMENTAL WEAPONS
 var elemWeapons = [
   mainWeapon,            // NONE
-  "poison sword D",      // POISON (vs. Vigor)
-  "vigor sword D",       // VIGOR (vs. Aether)
-  "aether sword D",      // AETHER (vs. Fire)
-  "fire sword D",        // FIRE (vs. Ice)
-  "ice sword +9 D"       // ICE (vs. Poison)
+  "poison sword ",      // POISON (vs. Vigor)
+  "vigor sword ",       // VIGOR (vs. Aether)
+  "aether wand",      // AETHER (vs. Fire)
+  "fire sword ",        // FIRE (vs. Ice)
+  "ice sword "       // ICE (vs. Poison)
 ]
 
 var elemOffhand = [
   mainOffhand,           // NONE
   mainWeapon,            // POISON (vs. Vigor)
-  mainWeapon,            // VIGOR (vs. Aether)
-  mainWeapon,            // AETHER (vs. Fire)
-  mainWeapon,            // FIRE (vs. Ice)
-  getAlt(elemWeapons[5]) // ICE (vs. Poison)
+  false,            // VIGOR (vs. Aether)
+  false,            // AETHER (vs. Fire)
+  false,            // FIRE (vs. Ice)
+  false // ICE (vs. Poison)
 ]
 
 var elemRanged = [
   mainRanged,            // NONE
-  "poison crossbow D",   // POISON (vs. Vigor)
-  "vigor staff D",       // VIGOR (vs. Aether)
+  false,   // POISON (vs. Vigor)
+  false,       // VIGOR (vs. Aether)
   "aether crossbow D",   // AETHER (vs. Fire)
   "fire crossbow D",     // FIRE (vs. Ice)
   "ice crossbow D"       // ICE (vs. Poison)
