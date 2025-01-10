@@ -3,7 +3,7 @@
 var isSpeedRunning = false
 var isStaffJumping = true
 var preferMelee = false
-var isPickPocketingWithSkeletonArm = true
+var isPickPocketingWithSkeletonArm = false
 var isOnPPKillQuest = false
 var useAetherTalisman = false
 
@@ -22,25 +22,25 @@ var devourFireRuneThreshold = 3
 var devourFireRuneBossThreshold = 10
 
 // - ARSENAL
-var splashMeleeWeapon = "big aether sword U"
-var healthRuneA = "poison rune *10"
-var healthRuneB = "vigor rune *10"
-var antiArmorMeleeWeapon = "heavy hammer"
+var splashMeleeWeapon = "blade"
+var healthRuneA = false
+var healthRuneB = false
+var antiArmorMeleeWeapon = false
 var debuffDamageWeapon = "poison sword dP"
 var debuffDoTWeapon = "fire sword dF"
 var debuffChillWeapon = "ice sword dI"
-var magicRangedWeapon = "vigor staff"
-var lifeStealMeleeWeapon = false
+var magicRangedWeapon = "aether wand"
+var lifeStealMeleeWeapon = vigor sword
 var lifeStealRangedWeapon = false
-var lifeStealShield = "vigor shield h"
-var icePillarWeaponA = "big aether sword U"
-var icePillarWeaponB = "moondial"
-var strongArmorShield = "compound shield +10"
-var fastArmorShield = getAlt(strongArmorShield)
-var iceWandA = "ice wand +14"
-var iceWandB = getAlt(iceWandA)
-var iceWandBossA = iceWandA
-var iceWandBossB = getAlt(iceWandBossA)
+var lifeStealShield = false
+var icePillarWeaponA = "blade"
+var icePillarWeaponB = false
+var strongArmorShield = "Towering shield" 
+var fastArmorShield = false
+var iceWandA = false
+var iceWandB = false
+var iceWandBossA = false
+Var iceWandBossB =false
 var stoneHammerA = "stone hammer +10"
 var stoneHammerB = getAlt(stoneHammerA)
 
